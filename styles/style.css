@@ -7,3 +7,35 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.color-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 18px 36px;
+}
+
+
+/* Header Section */
+nav{
+    padding: 50px 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading{
+    font-size: 45px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px
+}
+.nav-link{
+    list-style: none;
+    font-size: 20px;
+}
