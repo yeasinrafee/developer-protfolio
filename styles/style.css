@@ -16,6 +16,21 @@ body{
     border-radius: 5px;
     color: #ffffff;
     padding: 18px 36px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    border: 0;
+}
+.btn-secondary{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FD6E0A;
+    padding: 18px 36px;
+    border: 1px solid #FD6E0A;
 }
 
 
@@ -38,4 +53,32 @@ nav{
 .nav-link{
     list-style: none;
     font-size: 20px;
+}
+
+.banner{
+    padding: 50px 220px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.banner-content{
+    width: 585px;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+.banner-sub-heading{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
