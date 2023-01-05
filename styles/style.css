@@ -32,6 +32,12 @@ body{
     padding: 18px 36px;
     border: 1px solid #FD6E0A;
 }
+.heading-secondary{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+}
 
 
 /* Header Section */
@@ -93,4 +99,34 @@ nav{
     line-height: 30px;
     color: #757575;
     margin: 20px 0 30px 0;
+}
+
+/* About Section */
+.about{
+    margin: 99px auto;
+    padding: 130px 156px;
+    background: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+}
+.about-text{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin: 30px 0;
+}
+.about-info{
+    display: flex;
+    width: 784px;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 30px;
+}
+.info-heading{
+
+}
+.info-contact{
+
 }
