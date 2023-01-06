@@ -221,3 +221,44 @@ hr{
     justify-content: center;
     margin-top: 20px;
 }
+
+/* contact section */
+.contact{
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-heading{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 25px;
+}
+.contact-text{
+    width: 562px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact-icons{
+    display: flex;
+    gap: 24px;
+}
+input[type=text], input[type=email], textarea{
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 18px 30px;
+    color: #757575;
+    margin-bottom: 24px;
+}
